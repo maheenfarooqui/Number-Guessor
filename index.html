@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess Number 1 to 10</h1>
+      <div class="box">
+        <input
+          type="number"
+          id="guess"
+          min="1"
+          max="10"
+          placeholder="Enter Number"
+        />
+        <button onclick="guesNumber()">Check</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
